@@ -33,8 +33,8 @@ class Config(object):
     BAN_STICKER = getenv("BAN_STICKER", "")
     ALLOW_EXCL = True
     CUSTOM_CMD = False
-    CASH_API_KEY = getenv("CASH_API_KEY", "https://www.alphavantage.co/support/#api-key")
-    TIME_API_KEY = getenv("TIME_API_KEY", "https://timezonedb.com/api")
+    CASH_API_KEY = getenv("CASH_API_KEY", "3YWRUBP2OBVXWS0I")
+    TIME_API_KEY = getenv("TIME_API_KEY", "H8VG2SJ506W8")
     WALL_API = getenv("WALL_API", "https://wall.alphacoders.com/api.php")
     spamwatch_api = getenv("spamwatch_api", "biz5vJYFQEJkyUNdxkI0GGpQZBY8suw7ijT4P7CyOhHQHRz903nSy9wTgLmDRFQz")
     SPAMMERS = getenv("SPAMMERS", "")
